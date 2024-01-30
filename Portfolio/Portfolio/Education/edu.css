@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ---Designs-- */
+:root{
+
+    /*--Main theme colors--*/
+    --first-color:#0e2431;
+    --second-color:#23195c;
+    --third-color:#777;
+
+    /*--Hover Color--*/
+    --hover-color:#23195c;
+
+    /*--Background colors--*/
+    --body-bg-color:#fefefe;
+    --card-bg-color:#fff;
+    --modal-bg-color:#fff;
+    --bg-transparent-color:rgba(0,0,0,0.1);
+    --transparent-color-01:rgba(0,0,0,0.1);
+    --transparent-color-02:rgba(106,89,209,0.1);
+    --line-color:#d7d7d7;
+
+    /*--Color filter--*/
+    --color-filter:invert(1);
+
+    /*--Box shadow--*/
+    --box-shadow:0px 0px 20px rgb(0 0 0/10%);
+
+    /*--Font Size--*/
+    --small-font-size:0.9rem;
+    --normal-font-size:1rem;
+
+    /*--Scroll bar Colors--*/
+    --scroll-bar-color:#c5cadf;
+    --scroll-thumb-color:#70768a;
+    --scroll-thumb-hover-color:#454f6b;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+html
+{
+    overflow-x: hidden;
+}
+
+body 
+{
+    color: var(--first-color);
+    background: var(--body-bg-color);
+    margin: 3rem 0 0 0;
+    overflow: hidden;
+    transition: .5s ease;
+    
+}
+
+/*---Scroll Bar---*/
+::-webkit-scrollbar{
+    width: 10px;
+    background: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--scroll-thumb-color);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--scroll-thumb-hover-color);
+}
+
+
+
+/*---All Headings---*/
+
+.heading{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight:bold;
+    text-decoration: underline #23195c;
+    border: outset 8px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.heading span{
+    color: var(--second-color);
+}
+
+/*---Education---*/
+.education .education-container .education-content
+{
+    width: 100%;
+}
+
+
+.education-info
+{
+    max-width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+
+.education-all{
+    margin-bottom: 80px;
+}
+
+.edu-list .item
+{
+    background-color: var(--card-bg-color);
+    box-shadow: var(--box-shadow);
+    border-bottom: 3px solid var(--second-color);
+    border-top: 3px solid var(--second-color);
+    padding: 30px 40px;
+    margin-top: 28px;
+    border-radius: 6px;
+    transition: .3s ease;
+}
+
+.edu-list .item .year{
+    font-size: var(--small-font-size);
+   
+}
+
+.edu-list .item p{
+    color: var(--third-color);
+    font-size: var(--small-font-size);
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+
+/*---Common Styles for all Sections---*/
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---Loading Animation---*/
+
+.education
+{
+    opacity: 0;
+    animation: fadeIn 1.5s ease 1.5s forwards;
+}
+
+@keyframes slideIn {
+    from 
+    {
+        opacity: 0.3;
+        transform: translateX(-100%);
+        
+    }
+    to 
+    {
+        opacity: 1;
+        transform: translateX(100%);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.loading-overlay 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideIn 1.5s ease-in-out forwards;
+}
+
+
+
+

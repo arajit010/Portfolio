@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--This meta tag defines the character set for the HTML document. In this case, it's set to UTF-8, which is a 
+    widely used character encoding that supports a vast range of characters from various languages.-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This meta tag is crucial for responsive web design. It configures the viewport properties, instructing the 
+    browser to set the width of the viewport to the device width and initially scale the content to 1.0. This is 
+    essential for ensuring that web pages display properly on various devices with different screen sizes-->
+
+    <title>Portfolio</title>
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- custom css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <a href="#" class="logo"><strong>Portfolio</strong></a>
+        <nav class="nav-bar">
+            <a href="#home" class="active"><strong>Home</strong></a>
+            <a href="#about"><strong>About</strong></a>
+            <a href="#skills"><strong>Skills</strong></a>
+            <a href="#internships"><strong>Internships</strong></a>
+            <a href="#courses"><strong>Courses</strong></a>
+            <a href="#projects"><strong>Projects</strong></a>
+            <a href="#contact"><strong>Contact</strong></a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Home section design -->
+    <section class="home flex-center" id="home">
+        <div class="home-container">
+            <div class="info">
+                <h2>Hello, I am</h2>
+                <h1>Arajit Ghosh</h1>
+                <p>Passionate about coding and problem solving with a strong foundation in Java, Python, and SQL. Comfortable working with HTML, CSS, and JavaScript to enhance web development skills. I am familiar with Oracle databases. I am able to handle data manipulation using Numpy, Pandas, Matplotlib, and Seaborn. I am open to learning and contributing to projects that align with my interests. Ready to embark on a rewarding journey in the world of technology.
+                </p>
+                <a href="https://drive.google.com/file/d/1kEvVnTJOhoz5ocUMtcaD-N-NNVQznwh7/view?usp=sharing" class="btn">Download Resume</a>
+            </div> 
+            <div class="media-icons">
+                <a href="https://www.linkedin.com/in/arajit-ghosh-48b03b194/" target="_blank"><iconify-icon icon="ri:linkedin-fill"></iconify-icon></a>
+                <a href="https://github.com/arajit010" target="_blank"><iconify-icon icon="mdi:github"></iconify-icon></a>
+                <a href="https://leetcode.com/user3541T/" target="_blank"><iconify-icon icon="simple-icons:leetcode"></iconify-icon></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img  src="Picture5.png" alt="Arajit Ghosh"/>
+        </div>
+    </section>
+
+    <!---About Design--->
+    <section class="about" id="about">
+        <h2 class="heading">About<span> Me</span></h2>
+        <div class="about-container flex-center">
+            <div class="about-img">
+                <img src="Picture4.png" alt="Arajit Ghosh"/>
+            </div>
+            <div class="about-content">
+                <h3>Thanks for visiting</h3>
+                <p>Welcome to my portfolio, I'm a tech enthusiast with a strong foundation in Java, and Python. I'm driven by curiosity to innovate and build meaningful applications.My journey started with a passion for data structures and algorithms, shaping my problem-solving skills and igniting my love for programming's potential. I honed my skills in C, Java, and Python to turn creative ideas into reality through coding.
+                    My programming skills formed the basis, and I ventured into web development. Proficient in HTML and CSS, I create visually appealing, user-friendly web interfaces, blending technical prowess with design sensibility for well-rounded digital experiences.Fueled by an unquenchable thirst for knowledge, I'm diving into the world of Machine Learning and Deep Learning. The allure of training machines to emulate human intelligence inspires me to actively learn and contribute to this evolving field through self-directed study and hands-on experimentation.Beyond software development, I've ventured into database management with Oracle SQL and harnessed Streamlit for practical experience. This diversification bridges data manipulation and user-friendly visualizations, enhancing my ability to deliver holistic solutions.My portfolio reflects my passion, dedication, and ongoing pursuit of growth. Explore my diverse projects, from programming applications to creating user-friendly interfaces and delving into machine learning. Thank you for visiting, and I'm thrilled to share my tech journey with you.
+                </p>
+                <div class="about-btn">
+                    <a href="Education/education.html"  target="_blank" class="btn">Education</a>
+                    <a href="Achievements/achievements.html" target="_blank" class="btn">Achievements</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Skills Design-->
+    <section class="skills" id="skills">
+        <h2 class="heading">My<span> Skills</span></h2>
+        <div class="skills-container flex-center">
+            <div class="skills-content">
+                <div class="skills-info skills-all"> 
+                    <div class="skills-list">
+                        <h4><label>Languages</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="devicon:java"></iconify-icon>
+                                    <span>Core Java</span>
+                                </div>
+                                
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="devicon:python"></iconify-icon>
+                                    <span>Core Python</span>
+                                </div>
+                                
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="vscode-icons:file-type-sql"></iconify-icon>
+                                    <span>SQL</span>
+                                </div>
+                                
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="skills-list">
+                        <h4><label>Technologies</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="eos-icons:machine-learning-outlined"></iconify-icon>
+                                    <span>Machine Learning</span>
+                                </div>
+                                
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="logos:html-5"></iconify-icon>
+                                    <span>HTML</span>
+                                </div>
+                                
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="logos:css-3"></iconify-icon>
+                                    <span>CSS</span>
+                                </div>
+                                
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="openmoji:javascript"></iconify-icon>
+                                    <span>JavaScript</span>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills-list">
+                        <h4><label>Libraries</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="logos:numpy"></iconify-icon>
+                                    <span>NumPy</span>
+                                </div>   
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="devicon:pandas-wordmark"></iconify-icon>
+                                    <span>Pandas</span>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="logos:seaborn-icon"></iconify-icon>
+                                    <span>Seaborn</span>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="logos:matplotlib-icon"></iconify-icon>
+                                    <span>Matlplotlib</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills-list">
+                        <h4><label>Database</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <iconify-icon icon="simple-icons:oracle" style="color: red;"></iconify-icon>
+                                    <span>Oracle</span>
+                                </div>   
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---Internships--->
+    <section class="internships" id="internships">
+        <h2 class="heading">My<span> Internships</span></h2>
+        <div class="internships-container flex-center">
+            <div class="internships-content">
+                <ul class="internships-list">
+                    <li class="internships-item">
+                        <div class="internships-card">
+                            <h3>PwC</h3>
+                            <h4>(6-Months Launchpad Program)</h4>
+                            <div class="learn-more-btn">Learn More<i class="fas fa-long-arrow-alt-right"></i></div>
+                            <a href="https://drive.google.com/file/d/1oGQET-0pRb9ksX7q6yuzN98xGaUG95aT/view" target="_blank" class="btn">View</a>
+                        </div>
+                        <div class="internships-modal flex-center">
+                            <div class="internships-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>PwC Launchpad Program 2023</h3>
+                                <h4>(6-Months)</h4>
+                                <h4>Knowledge Gained In:</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i>IT Fundamentals</li>
+                                    <li><i class="fas fa-check-circle"></i>RDBMS</li>
+                                    <li><i class="fas fa-check-circle"></i>Responsive Web Design</li>
+                                    <li><i class="fas fa-check-circle"></i>Java</li>
+                                    <li><i class="fas fa-check-circle"></i>Cloud Fundamentals</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="internships-item">
+                        <div class="internships-card">
+                            <h3>Pantech e Learning</h3>
+                            <h4>(Amazon Web Services & Machine Learning Operations)</h4>
+                            <div class="learn-more-btn">Learn More<i class="fas fa-long-arrow-alt-right"></i></div>
+                            <a href="https://drive.google.com/file/d/1RBnmcecAO3cqX1BSTmJxc8v_--cS4zPB/view" target="_blank" class="btn">View</a>
+                        </div>
+                        <div class="internships-modal flex-center">
+                            <div class="internships-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>Amazon Web Services & Machine Learning Operations</h3>
+                                <h4>(Masterclass: 30-Days on Learning)</h4>
+                                <h4>Knowledge Gained:</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i>Numpy</li>
+                                    <li><i class="fas fa-check-circle"></i>Pandas</li>
+                                    <li><i class="fas fa-check-circle"></i>Matplotlib</li>
+                                    <li><i class="fas fa-check-circle"></i>Seaborn</li>
+                                    <li><i class="fas fa-check-circle"></i>Machine Learning Concepts</li>
+                                    <li><i class="fas fa-check-circle"></i>Cloud Fundamentals</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    
+                   
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Course Design -->
+    <section id="courses" class="courses">
+        <h2 class="heading">My<span> Learnings</span></h2>
+        <div class="courses-container flex-center">
+            <div class="courses-content">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex-center">
+                            <div class="courses-img">
+                                <img src="Intro_ML.jpg" alt="ML pic"/>
+                            </div>
+                            <div class="courses-details">
+                               <h3>Intoduction to Machine Learning</h3>
+                               <h4>(NPTEL - 8 Weeks)</h3>
+                               <span>Achieved a score of 76%</span>
+                               <a href="https://drive.google.com/file/d/1jO1DM6rr0O-td_Ve-pqtKsfAQy8Iob06/view" target="_blank"><strong>&ensp;View</strong></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex-center">
+                            <div class="courses-img">
+                                <img src="PWC.jpg" alt="pwc pic"/>
+                            </div>
+                            <div class="courses-details">
+                                <h3>PwC Launchpad 2023</h3>
+                                <h4>(6 Months Training Program )</h3>
+                                <span>Received Micro-Certificates in IT Fundamentals, Java, RDBMS, RWD and Cloud Fundamentals.</span>
+                                <a href="https://drive.google.com/file/d/1XMJBbBTLgxk5bRzW3ovPInik1sog_r6G/view" target="_blank"><strong>&ensp;View</strong></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex-center">
+                            <div class="courses-img">
+                                <img src="Joy.jpg" alt="ML pic"/>
+                            </div>
+                            <div class="courses-details">
+                                <h3>The Joy of Computing Using Python</h3>
+                                <h4>(NPTEL - 12 Weeks)</h3>
+                                <span>Achieved a score of 88%.</span>
+                                <a href="https://drive.google.com/file/d/1OhG47tTAWo1Bd8_ITjcqUh4EU-xFboKf/view" target="_blank"><strong>&ensp;View</strong></a>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex-center">
+                            <div class="courses-img">
+                                <img src="boot.jpeg" alt="ML pic"/>
+                            </div>
+                            <div class="courses-details">
+                                <h3>The Complete 2024 Web Development Bootcamp</h3>
+                                <h4>(Udemy - 63 Hours)</h3>
+                                <span>Ongoing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Projects section design -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My<span> Projects</span></h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <h3>Cat-Dog Image Classification System</h3>
+                <label>Machine Learning</label>
+                <a href="https://drive.google.com/file/d/1OhG47tTAWo1Bd8_ITjcqUh4EU-xFboKf/view" target="_blank"><strong>&ensp;View</strong></a>
+            </div>
+
+            <div class="projects-box">
+                <h3>Tic-Tac-Toe</h3>
+                <label>HTML CSS JS</label>
+            </div>
+
+            <div class="projects-box">
+                <h3>English Alphabet Recognition System</h3>
+                <label>Machine Learning</label>
+            </div>
+
+            <div class="projects-box">
+                <h3>Web Scrapper</h3>
+                <label>Machine Learning</label>
+            </div>
+
+            <div class="projects-box">
+                <h3>Web Scrapper</h3>
+                <label>Machine Learning</label>
+            </div>
+
+            <div class="projects-box">
+                <h3>Web Scrapper</h3>
+                <label>Machine Learning</label>
+            </div>
+
+        </div>
+    </section>
+
+        
+
+    <!--Contact section design--->
+ 
+    <section class="contact" id="contact" ">
+        <h2 class="heading">Contact<span> Me</span></h2>
+        <div class="contact-container flex-center">
+            <div class="contact-content">
+                <div class="contact-left">
+                    <h2>Let's your project</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-phone"></i>Phone</h3>
+                            <span>+91 8777861897</span>
+                        </li>
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-envelope"></i>Email Address</h3>
+                            <span><a href="mailto:arajit861897@gmail.com">arajit861897@gmail.com</a></span>
+                        </li>
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-map-marker-alt"></i>Home Address</h3>
+                            <span>Chinsurah, West Bengal, India</span>
+                        </li>
+                    </ul>
+                </div>
+               <!-- <div class="contact-right">
+                    <p>khghhgkhkhkkg<br/><span>hdkdjhkjkj</span>lhzldlklkhlh</p>
+                    <form action="" class="contact-form">
+                        <div class="first-row">
+                            <input type="text" placeholder="Name"/>
+                        </div>
+                        <div class="second-row">
+                            <input type="email" placeholder="Email"/>
+                            <input type="text" placeholder="Subject"/>
+                        </div>
+                        <div class="third-row">
+                            <textarea name="message" id="" rows="7" placeholder="Message"></textarea>
+                        </div>
+                        <button class="btn" type="submit">Send Me<i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Footer Design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Portfolio | arajit861897@gmail.com</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+    <!--Icons-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!---Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
